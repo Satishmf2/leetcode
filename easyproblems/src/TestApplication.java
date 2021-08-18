@@ -9,5 +9,8 @@ public class TestApplication {
 
         TwoSum t= new TwoSum();
         System.out.println(Arrays.toString(t.findSum(new int[]{2,7,11,15}, 9)));
+
+        ReverseNumber n = new ReverseNumber();
+        System.out.println(n.reverse(-123));
     }
 }
